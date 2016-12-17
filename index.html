@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forêt</title>
+    <style>
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 0;
+        font-size: 100%;
+
+      }
+
+      #main {
+        width: 100%;
+        width: 100vw;
+        height: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+      }
+
+      .message {
+        background-color: #1f2b11;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 30%;
+        text-align: center;
+        padding-bottom: 2em;
+        /*box-shadow: 7px 4px 4px rgba(0, 0, 0, 0.6);*/
+        /*-ms-transform: translate(-50%, -50%); /* IE 9 */*/
+        /*-webkit-transform: translate(-50%, -50%); /* Safari */*/
+        transform: translate(-50%, -50%);
+
+box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.8) inset;
+-ms-transform: translate(-50%, -50%);
+-webkit-transform: translate(-50%, -50%);
+border: 14px double #a96330;
+      }
+
+      .message h2 {
+        font-weight: normal;
+        font-size: 1em;
+        color: white;
+        margin-bottom: 2em;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+
+      }
+
+      .message a {
+        color: #365017;
+        text-decoration: none;
+        letter-spacing: 0.2em;
+        font-size: 0.9em;
+        padding: 10px;
+        transition: color 1.4s ease;
+      }
+
+      .message a:hover {
+        color: #556f38;
+        cursor: pointer;
+      }
+
+      .message .logo {
+        background-image: url(img/logo.svg);
+        background-repeat: no-repeat;
+        background-position: top center;
+      }
+
+      .message .logo h1 {
+        text-indent: -9999px;
+        text-indent: -9999px;
+        height: 12vw;
+        min-height: 120px;
+        max-height: 120px;
+       }
+
+      img.bg {
+        width: 100%;
+        padding: 0;
+        object-fit: cover;
+        object-position: 0% 50%;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div class="message">
+        <div class="logo"><h1>Forêt</h1></div>
+        <h2>Website coming soon.</h2>
+        <a href="mailto:contact@foret.design">contact@foret.design</a>
+      </div>
+
+      <img src="img/wall.jpg" alt="" class="bg">
+    </div>
+  </body>
+</html>
